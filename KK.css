@@ -1,0 +1,183 @@
+/*Настройки отображения элементов на сайте*/
+body {
+    background-image: url("wall.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.TITLE {
+    display: flex;
+    justify-content: center;
+    width: 50vh;
+    text-align: center;
+    flex-direction: column;
+    background: linear-gradient(180deg, #030303 0%, rgba(0, 0, 0, 0.25) 100%);
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    border: 1px solid white;
+}
+
+.teh {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.title_text_1 {
+    font-size: 70px;
+}
+
+/*Основной блок*/
+.main_text1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background: linear-gradient(180deg, #030303 0%, rgba(0, 0, 0, 0.25) 100%);
+    border-radius:20px;
+    margin: 10px;
+    width: 70%;
+    color: white;
+    border: 1px solid white;
+}
+
+.alia {
+    font-size: 3vw;
+    text-decoration: none;
+    padding: 1% 5%;
+    background-color: brown;
+    border-radius: 20px;
+    color: rgb(232, 232, 232);
+}
+
+.divEx1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.objects {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clients2 {
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background: linear-gradient(180deg, #000 0%, #5F5F5F 100%);
+    width: 70%;
+    height: 700px;
+    padding: 20px;
+}
+
+/*Прочее*/
+h3 {
+    font-size: 20px;
+}
+
+.gg {
+    height: 40%;
+    width: 80%;
+}
+
+a {
+    color: rgb(164, 164, 164);
+    text-decoration: none;
+    font-size: 30px;
+}
+
+a:hover {
+    color: rgb(116, 116, 116);
+}
+
+.AutorText1 {
+    color: gray;
+}
+
+.AutorText {
+    color: white;
+    font-size: 20px;
+}
+
+.clients2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.podtekst {
+    color: rgb(235, 235, 235);
+}
+.experience{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.TITLE2{
+    display: flex;
+    justify-content: center;
+    width: 50vh;
+    flex-direction: column;
+    background: linear-gradient(180deg, #030303 0%, rgba(0, 0, 0, 0.25) 100%);
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    border: 1px solid white;
+}
+.title_text_3{
+    font-size: 50px;
+}
+.top1{
+    background-color: white;
+    height: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    border-top: 0px solid white;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+}
+.button1{
+    width: 10px;
+    height: 10px;
+    margin-top: 6px;
+    background-color: red;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+.button2{
+    margin-top: 6px;
+    width: 10px;
+    height: 10px;
+    background-color: yellow;
+    border-radius: 10px;
+    margin-left: 3px;
+}
+.button3{
+    margin-top: 6px;
+    width: 10px;
+    height: 10px;
+    background-color: greenyellow;
+    border-radius: 10px;
+    margin-left: 3px;
+}
+.top1{
+    background-color: white;
+    height: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    border-top: 0px solid white;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+}
